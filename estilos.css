@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    font-size: xx-large;
+    padding: 10%;
+    font-family:'Segoe UI';
+    font-style: italic;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    background: white;
+    color: black;
+}
+
+button:hover{
+    background: black;
+    color: white;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+    font-family: "Haettenschweiler";
+    width: 90px;
+    height: 85px;
+    border-radius: 25px;
+
+}
+
+#noBtn{
+    position: absolute;
+    font-family: "Haettenschweiler";
+    width: 90px;
+    height: 85px;
+    border-radius: 25px;
+}
